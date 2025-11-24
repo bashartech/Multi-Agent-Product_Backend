@@ -1,0 +1,12 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.13.2",
+    "fastapi>=0.121.3",
+    "openai-agents>=0.6.1",
+    "tavily-python>=0.7.13",
+]
